@@ -5877,9 +5877,3 @@ table.hide-for-medium {
     width: 100%;
   }
 }
-/* line 16, ../sass/app.scss */
-body, html {
-  font-family: "museo-sans";
-  font-weight: 300;
-  color: #333333;
-}

@@ -1,0 +1,55 @@
+/* line 8, ../sass/custom.scss */
+html, body {
+  font-family: museo, sans-serif;
+  height: 100%;
+  color: #474747;
+}
+
+/* line 14, ../sass/custom.scss */
+h1, h2, h3 {
+  font-family: museo, sans-serif;
+  color: #474747;
+}
+
+/* line 19, ../sass/custom.scss */
+h1, h2 {
+  font-weight: 700;
+}
+
+/* line 24, ../sass/custom.scss */
+.home {
+  height: 70%;
+}
+/* line 28, ../sass/custom.scss */
+.home h1 {
+  margin-top: 40%;
+  letter-spacing: .02em;
+}
+/* line 33, ../sass/custom.scss */
+.home h2 {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+/* line 39, ../sass/custom.scss */
+.image {
+  background: #cccccc;
+  padding: 0;
+}
+
+/* line 44, ../sass/custom.scss */
+.project {
+  height: 20%;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  border-left: none;
+  border-right: none;
+}
+/* line 51, ../sass/custom.scss */
+.project h2 {
+  font-weight: 700;
+}
+/* line 54, ../sass/custom.scss */
+.project h2 span {
+  font-weight: 300;
+}
