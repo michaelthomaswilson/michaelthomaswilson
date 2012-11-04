@@ -2,7 +2,11 @@ $darkgray: #474747;
 $lightestgray: #ccc;
 
 @mixin sans {
-	font-family: museo, sans-serif;
+	font-family: "museo-sans", sans-serif;
+}
+
+@mixin serif {
+	font-family: "liberation-serif", serif;
 }
 
 html, body {
