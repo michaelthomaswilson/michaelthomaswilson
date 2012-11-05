@@ -13,6 +13,7 @@ html, body {
 	@include sans;
 	height: 100%;
 	color: $darkgray;
+	background: $lightestgray;
 }
 
 h1, h2, h3,  {
@@ -21,7 +22,11 @@ h1, h2, h3,  {
 }
 
 h1, h2 {
-	font-weight: 700;
+	font-weight: 500;
+}
+
+.centered {
+	text-align: center;
 }
 
 
@@ -30,12 +35,15 @@ h1, h2 {
 	//background: #fff url('/images/bg_whiteboard.jpg') 50% 50%;
 
 	h1 {
-		margin-top: 40%;
+		margin-top: 50%;
+		padding-bottom: 10px;
 		letter-spacing: .02em;
+		@include serif;
+		border-bottom: 1px solid $darkgray;
 	}
 
 	h2 {
-		font-size: 1.4em;
+		font-size: 18px;
 		font-weight: 300;
 	}
 }
@@ -43,20 +51,33 @@ h1, h2 {
 .image {
 	background: $lightestgray;
 	padding: 0;
+
+	img {
+		width: 100%;
+	}
 }
 
 .project {
-	height: 20%;
+	//height: 20%;
+	background: #fff; //#f2f2f2;
+	border-top: 1px solid $darkgray;
+	border-bottom: 1px solid $darkgray;
 	overflow: hidden;
-	border: 1px solid $lightestgray;
-	border-left: none;
-	border-right: none;
+	margin-bottom: 20px;
 
 	h2 {
-		font-weight: 700;
+		font-weight: 500;
+		@include serif;
 
 		span {
 			font-weight: 300;
+			@include sans;
 		}
+	}
+
+	h3 {
+		font-weight: 300;
+		font-size: 20px;
+		@include sans;
 	}
 }
