@@ -1,5 +1,5 @@
 $darkgray: #474747;
-$lightestgray: #ccc;
+$lightestgray: #e5e5e5;
 
 @mixin sans {
 	font-family: "museo-sans", sans-serif;
@@ -32,10 +32,9 @@ h1, h2 {
 
 .home {
 	height: 70%;
-	//background: #fff url('/images/bg_whiteboard.jpg') 50% 50%;
 
 	h1 {
-		margin-top: 50%;
+		margin-top: 20%;
 		padding-bottom: 10px;
 		letter-spacing: .02em;
 		@include serif;
@@ -45,6 +44,12 @@ h1, h2 {
 	h2 {
 		font-size: 18px;
 		font-weight: 300;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 300;
+		margin: 50px 0;
 	}
 }
 
@@ -58,12 +63,11 @@ h1, h2 {
 }
 
 .project {
-	//height: 20%;
 	background: #fff; //#f2f2f2;
 	border-top: 1px solid $darkgray;
 	border-bottom: 1px solid $darkgray;
+	margin-bottom: 30px;
 	overflow: hidden;
-	margin-bottom: 20px;
 
 	h2 {
 		font-weight: 500;

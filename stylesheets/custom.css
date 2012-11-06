@@ -3,7 +3,7 @@ html, body {
   font-family: "museo-sans", sans-serif;
   height: 100%;
   color: #474747;
-  background: #cccccc;
+  background: #e5e5e5;
 }
 
 /* line 19, ../sass/custom.scss */
@@ -26,49 +26,55 @@ h1, h2 {
 .home {
   height: 70%;
 }
-/* line 37, ../sass/custom.scss */
+/* line 36, ../sass/custom.scss */
 .home h1 {
-  margin-top: 50%;
+  margin-top: 20%;
   padding-bottom: 10px;
   letter-spacing: .02em;
   font-family: "liberation-serif", serif;
   border-bottom: 1px solid #474747;
 }
-/* line 45, ../sass/custom.scss */
+/* line 44, ../sass/custom.scss */
 .home h2 {
   font-size: 18px;
   font-weight: 300;
 }
+/* line 49, ../sass/custom.scss */
+.home h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 50px 0;
+}
 
-/* line 51, ../sass/custom.scss */
+/* line 56, ../sass/custom.scss */
 .image {
-  background: #cccccc;
+  background: #e5e5e5;
   padding: 0;
 }
-/* line 55, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
 .image img {
   width: 100%;
 }
 
-/* line 60, ../sass/custom.scss */
+/* line 65, ../sass/custom.scss */
 .project {
   background: #fff;
   border-top: 1px solid #474747;
   border-bottom: 1px solid #474747;
+  margin-bottom: 30px;
   overflow: hidden;
-  margin-bottom: 20px;
 }
-/* line 68, ../sass/custom.scss */
+/* line 72, ../sass/custom.scss */
 .project h2 {
   font-weight: 500;
   font-family: "liberation-serif", serif;
 }
-/* line 72, ../sass/custom.scss */
+/* line 76, ../sass/custom.scss */
 .project h2 span {
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
 }
-/* line 78, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 .project h3 {
   font-weight: 300;
   font-size: 20px;
