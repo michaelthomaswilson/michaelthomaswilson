@@ -45,18 +45,26 @@ h1, h2 {
   font-weight: 300;
   margin: 50px 0;
 }
+/* line 55, ../sass/custom.scss */
+.home a.social {
+  opacity: .7;
+}
+/* line 58, ../sass/custom.scss */
+.home a.social:hover {
+  opacity: 1;
+}
 
-/* line 56, ../sass/custom.scss */
+/* line 64, ../sass/custom.scss */
 .image {
   background: #e5e5e5;
   padding: 0;
 }
-/* line 60, ../sass/custom.scss */
+/* line 68, ../sass/custom.scss */
 .image img {
   width: 100%;
 }
 
-/* line 65, ../sass/custom.scss */
+/* line 73, ../sass/custom.scss */
 .project {
   background: #fff;
   border-top: 1px solid #474747;
@@ -64,17 +72,17 @@ h1, h2 {
   margin-bottom: 30px;
   overflow: hidden;
 }
-/* line 72, ../sass/custom.scss */
+/* line 80, ../sass/custom.scss */
 .project h2 {
   font-weight: 500;
   font-family: "liberation-serif", serif;
 }
-/* line 76, ../sass/custom.scss */
+/* line 84, ../sass/custom.scss */
 .project h2 span {
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
 }
-/* line 82, ../sass/custom.scss */
+/* line 90, ../sass/custom.scss */
 .project h3 {
   font-weight: 300;
   font-size: 20px;
