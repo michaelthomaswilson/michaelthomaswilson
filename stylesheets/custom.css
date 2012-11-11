@@ -17,54 +17,103 @@ h1, h2 {
   font-weight: 500;
 }
 
-/* line 28, ../sass/custom.scss */
+/* line 30, ../sass/custom.scss */
+img.photo {
+  width: 100%;
+  height: 80%;
+  background: #999;
+  margin: 50px 0;
+}
+
+/* line 38, ../sass/custom.scss */
+.caption {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  bottom: 150px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+/* line 47, ../sass/custom.scss */
+.caption h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+}
+/* line 53, ../sass/custom.scss */
+.caption p {
+  color: #e5e5e5;
+}
+
+/* line 58, ../sass/custom.scss */
 .centered {
   text-align: center;
 }
 
-/* line 33, ../sass/custom.scss */
+/* line 64, ../sass/custom.scss */
+.description h1 {
+  font-family: "liberation-serif", serif;
+  font-size: 50px;
+}
+/* line 69, ../sass/custom.scss */
+.description h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+/* line 74, ../sass/custom.scss */
+.description p {
+  font-size: 16px;
+}
+
+/* line 80, ../sass/custom.scss */
 .home {
   height: 70%;
 }
-/* line 36, ../sass/custom.scss */
+/* line 83, ../sass/custom.scss */
 .home h1 {
-  margin-top: 20%;
+  margin-top: 10%;
   padding-bottom: 10px;
   letter-spacing: .02em;
   font-family: "liberation-serif", serif;
   border-bottom: 1px solid #474747;
 }
-/* line 44, ../sass/custom.scss */
+/* line 91, ../sass/custom.scss */
 .home h2 {
   font-size: 18px;
   font-weight: 300;
 }
-/* line 49, ../sass/custom.scss */
+/* line 96, ../sass/custom.scss */
 .home h3 {
   font-size: 20px;
   font-weight: 300;
   margin: 50px 0;
 }
-/* line 55, ../sass/custom.scss */
+/* line 102, ../sass/custom.scss */
 .home a.social {
   opacity: .7;
 }
-/* line 58, ../sass/custom.scss */
+/* line 105, ../sass/custom.scss */
 .home a.social:hover {
   opacity: 1;
 }
+/* line 110, ../sass/custom.scss */
+.home.interior {
+  height: auto;
+  margin-bottom: 50px;
+}
 
-/* line 64, ../sass/custom.scss */
+/* line 116, ../sass/custom.scss */
 .image {
   background: #e5e5e5;
   padding: 0;
 }
-/* line 68, ../sass/custom.scss */
+/* line 120, ../sass/custom.scss */
 .image img {
   width: 100%;
 }
 
-/* line 73, ../sass/custom.scss */
+/* line 125, ../sass/custom.scss */
 .project {
   background: #fff;
   border-top: 1px solid #474747;
@@ -72,17 +121,17 @@ h1, h2 {
   margin-bottom: 30px;
   overflow: hidden;
 }
-/* line 80, ../sass/custom.scss */
+/* line 132, ../sass/custom.scss */
 .project h2 {
   font-weight: 500;
   font-family: "liberation-serif", serif;
 }
-/* line 84, ../sass/custom.scss */
+/* line 136, ../sass/custom.scss */
 .project h2 span {
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
 }
-/* line 90, ../sass/custom.scss */
+/* line 142, ../sass/custom.scss */
 .project h3 {
   font-weight: 300;
   font-size: 20px;
