@@ -102,7 +102,7 @@ p {
 
 /* line 113, ../sass/custom.scss */
 .home {
-  height: 70%;
+  height: 60%;
 }
 /* line 116, ../sass/custom.scss */
 .home h1 {
@@ -150,24 +150,25 @@ p {
 /* line 158, ../sass/custom.scss */
 .project {
   background: #fff;
-  border-top: 1px solid #474747;
-  border-bottom: 1px solid #474747;
   margin-bottom: 30px;
   overflow: hidden;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-/* line 165, ../sass/custom.scss */
+/* line 168, ../sass/custom.scss */
 .project h2 {
   font-weight: 500;
   font-family: "liberation-serif", serif;
 }
-/* line 169, ../sass/custom.scss */
+/* line 172, ../sass/custom.scss */
 .project h2 span {
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
 }
-/* line 175, ../sass/custom.scss */
+/* line 178, ../sass/custom.scss */
 .project h3 {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.3em;
   font-family: "museo-sans", sans-serif;
 }

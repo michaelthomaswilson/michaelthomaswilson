@@ -111,7 +111,7 @@ p {
 
 
 .home {
-	height: 70%;
+	height: 60%;
 
 	h1 {
 		margin-top: 10%;
@@ -157,10 +157,13 @@ p {
 
 .project {
 	background: #fff; //#f2f2f2;
-	border-top: 1px solid $darkgray;
-	border-bottom: 1px solid $darkgray;
+	//border-top: 1px solid $darkgray;
+	//border-bottom: 1px solid $darkgray;
 	margin-bottom: 30px;
 	overflow: hidden;
+
+	padding: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
 
 	h2 {
 		font-weight: 500;
@@ -174,7 +177,8 @@ p {
 
 	h3 {
 		font-weight: 300;
-		font-size: 20px;
+		font-size: 18px;
+		line-height: 1.3em;
 		@include sans;
 	}
 }
