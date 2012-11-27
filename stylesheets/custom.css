@@ -149,23 +149,24 @@ p {
 
 /* line 158, ../sass/custom.scss */
 .project {
+  position: relative;
   background: #fff;
   margin-bottom: 30px;
   overflow: hidden;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-/* line 168, ../sass/custom.scss */
+/* line 169, ../sass/custom.scss */
 .project h2 {
   font-weight: 500;
   font-family: "liberation-serif", serif;
 }
-/* line 172, ../sass/custom.scss */
+/* line 173, ../sass/custom.scss */
 .project h2 span {
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
 }
-/* line 178, ../sass/custom.scss */
+/* line 179, ../sass/custom.scss */
 .project h3 {
   font-weight: 300;
   font-size: 18px;
