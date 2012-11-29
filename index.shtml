@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Michael Thomas Wilson  || User Experience, Technologist</title>
+
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/pfs3dzs.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<!--#include virtual="/header.html" -->
+
+	<!-- project 1 -->
+	<div class="row project">
+		<a href="sexual_health.shtml">
+			<div class="four columns title">
+				<h2>sexualhealth.com</h2>
+				<h3>Health information source with online, confidential medical testing with secure results delivery and consultation.</h3>
+			</div>
+			<div class="eight columns image last">
+				<img src="/images/home/sexual_health.jpg" alt="sexualhealth.com">
+			</div>
+		</a>
+	</div>
+
+	<!-- project 1 -->
+	<div class="row project">
+		<a href="stx.shtml">
+			<div class="four columns title">
+				<h2>std test express mobile site</h2>
+				<h3>Online, private medical testing and consultation service directly from your mobile device.</h3>
+			</div>
+			<div class="eight columns image last">
+				<img src="/images/home/stx.jpg" alt="stdtestexpress.com">
+			</div>
+		</a>
+	</div>
+	<!-- project 2 -->
+	<div class="row project">
+		<a href="sagwag.shtml">
+			<div class="four columns title">
+				<h2>sagwag</h2>
+				<h3>Web application that raises donations with every turn of the crank.</h3>
+			</div>
+			<div class="eight columns image last">
+				<img src="/images/home/sagwag.jpg" alt="sagwag">
+			</div>
+		</a>
+	</div>
+	<!-- project 3 -->
+	<div class="row project">
+		<a href="get_out_west.shtml">
+			<div class="four columns title">
+				<h2>get out west</h2>
+				<h3>Proposed interactive experience that drives outdoor adventures.</h3>
+			</div>
+			<div class="eight columns image last">
+				<img src="/images/home/get_out_west.jpg" alt="get out west">
+			</div>
+		</a>
+	</div>
+	<!-- project 4 -->
+	<div class="row project">
+		<a href="payments_legend.shtml">
+			<div class="four columns title">
+				<h2>payments legend</h2>
+				<h3>Mobile video game inspired by the 8-bit videos of the past.</h3>
+			</div>
+			<div class="eight columns image last">
+				<img src="/images/home/payments_legend.jpg" alt="payments legend">
+			</div>
+		</a>
+	</div>
+	
+	<!--#include virtual="/footer.html" -->
+
+</body>
+</html>

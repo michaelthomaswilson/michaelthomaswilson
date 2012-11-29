@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Michael Thomas Wilson  || User Experience, Technologist</title>
+
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/pfs3dzs.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+	<!--#include virtual="/header_interior.html" -->
+
+	<!-- intro -->
+	<div class="row">
+		<div class="twelve columns description centered">
+			<h1>sexualhealth.com</h1>
+			<h2>Health information source with online, confidential <br>medical testing with secure results delivery and consultation.</h2>
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>challenge</h3>
+			<p>To merge an large, existing sexual health knowledge base web site with a proven online medical testing solution to provide customers a complete health care solution.</p>
+		</div>
+		<div class="six columns description">
+			<h3>solution</h3>
+			<p>Guiding users to the information and services they are looking for while preserving the first page search results ranking of the existing content were our highest priorities.  Extensive research and exploration was done investigating the relationships of the information with the services to provide a rich experience.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>the result</h3>
+			<p>Sexualhealth.com established a beachhead on the internet as a complete source for sexual health education, testing and counseling.  </p>
+		</div>
+		<div class="six columns description">
+			<h3>my role</h3>
+			<p>My primary role was lead user experience architect working closely with the Director of User Experience, Jon Kawa, the Chief Creative Officer, Michelle Sobel and designer, Jason Grant. I also worked on coding prototypes for our main website and mobile.  Initial site design was create by Weightshift.</p>
+		</div>
+	</div>
+
+	<!-- photo 1 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/sexual_health/integration.jpg">
+
+			<div class="caption">
+				<h3>information relationships</h3>
+				<p>This diagram illustrates the organization of site-wide information and opportunities for content to support multiple areas</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 2 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/sexual_health/sitemap.jpg">
+
+			<div class="caption">
+				<h3>site map</h3>
+				<p>The initial site map for organizing sexual health information and our testing services.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 3 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/sexual_health/location_flow.jpg">
+
+			<div class="caption">
+				<h3>testing user flow</h3>
+				<p>The testing service utilizes labs near the user so geolocation was an important step in the process. </p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 4 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/sexual_health/screens01.jpg">
+		</div>
+	</div>
+
+	<!-- photo 5 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/sexual_health/screens02.jpg">
+		</div>
+	</div>
+
+	<!--#include virtual="/footer.html" -->
+
+	<!-- Included JS Files (Uncompressed) -->
+	<script src="javascripts/foundation/jquery.js"></script>
+	<script src="javascripts/foundation/jquery.placeholder.js"></script>
+  <!-- Application Javascript, safe to override -->
+  <script src="javascripts/foundation/app.js"></script>
+</body>
+</html>

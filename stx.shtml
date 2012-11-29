@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Michael Thomas Wilson  || User Experience, Technologist</title>
+
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/pfs3dzs.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+	<!--#include virtual="/header_interior.html" -->
+
+	<!-- intro -->
+	<div class="row">
+		<div class="twelve columns description centered">
+			<h1>stdtestexpress mobile site</h1>
+			<h2>Online, private medical testing and consultation<br> service directly from your mobile device.</h2>
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>challenge</h3>
+			<p>Bring our highly successful online std information and testing platform to mobile phones.  We needed to quickly educate the user on the product offering and testing process while building trust.</p>
+		</div>
+		<div class="six columns description">
+			<h3>solution</h3>
+			<p>Present the information in a simple, easily-digestible format that guides the user through the process.  Users have the option to speak with a care advisor at any time.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>the result</h3>
+			<p>Increased traffic and conversions via our mobile channel.</p>
+		</div>
+		<div class="six columns description">
+			<h3>my role</h3>
+			<p>My role was visual designer and prototyper working in a team of three ux designers.</p>
+		</div>
+	</div>
+
+	<!-- photo 1 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/stx/how_it_works.jpg">
+
+			<div class="caption">
+				<h3>how it works</h3>
+				<p>Educate the user on our simple and confidential testing process.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 2 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/stx/test_pricing.jpg">
+
+			<div class="caption">
+				<h3>test pricing</h3>
+				<p>Each test and test package is presented clearly illustrating whats included and its value.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 3 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/stx/checkout.jpg">
+
+			<div class="caption">
+				<h3>checkout</h3>
+				<p>The user is guided through each step of medical questiosn, lab locations and purchase information.</p>
+			</div>
+		</div>
+	</div>
+
+	<!--#include virtual="/footer.html" -->
+
+	<!-- Included JS Files (Uncompressed) -->
+	<script src="javascripts/foundation/jquery.js"></script>
+	<script src="javascripts/foundation/jquery.placeholder.js"></script>
+  <!-- Application Javascript, safe to override -->
+  <script src="javascripts/foundation/app.js"></script>
+</body>
+</html>

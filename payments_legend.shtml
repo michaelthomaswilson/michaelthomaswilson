@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Michael Thomas Wilson  || User Experience, Technologist</title>
+
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/pfs3dzs.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+	<!--#include virtual="/header_interior.html" -->
+
+	<!-- intro -->
+	<div class="row">
+		<div class="twelve columns description centered">
+			<h1>western union payments legend</h1>
+			<h2>Mobile video game inspired by the 8-bit videos of the past.</h2>
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>challenge</h3>
+			<p>Western Union tasked us to develop a digital solution that would build interest and drive potential customers to their tradeshow booths across the United States</p>
+		</div>
+		<div class="six columns description">
+			<h3>solution</h3>
+			<p>We developed Payments Legend — a mobile video game inspired by the days of 8-bit Nintendo games.
+While the users are trying to get the high score, they are learning about Western Union’s offerings and networking via LinkedIn integration with their fellow tradeshow visitors.  </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>the result</h3>
+			<p>With solid pre-tradeshow responses, traffic was increased to Western Union's booths where the game was presented on iPads.  The high score leaderboard was displayed on a large flat panel screen with each player's LinkedIn photo, name and status.</p>
+		</div>
+		<div class="six columns description">
+			<h3>my role</h3>
+			<p>My role was digital strategist, ux architect, and javascript / rails developer.  The screens were designed by Mike Mioduski at Pure.</p>
+		</div>
+	</div>
+
+	<!-- photo 1 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/payments_legend/flow.jpg">
+			<div class="caption">
+				<h3>application flow / api touchpoints</h3>
+				<p>The incredibly small budget and fast turnaround required us to utilize several rapid-development solutions. 
+					An open source javascript-based pong game engine was customized and reskinned while being integrated with a Ruby on Rails backend.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 3 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/payments_legend/screens1.jpg">
+
+			<div class="caption">
+				<h3>linkedin integration</h3>
+				<p>User's were encouraged to login with their LinkedIn profile for a more customized experience. LinkedIn was a more appropriate social source as the user base was focused on their profession and networking. This also allowed the user to leverage their LinkedIn status to promote their company on the leaderboard.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 3 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/payments_legend/screens2.jpg">
+
+			<div class="caption">
+				<h3>product messaging</h3>
+				<p>Each level was started and finished with product messaging screens to educate the user in Western Union's product offering. By integrating these screens within the game play, we are able to avoid the application becoming too "sales-y." </p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 4 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/payments_legend/screens3.jpg">
+		</div>
+	</div>
+	<!--#include virtual="/footer.html" -->
+</body>
+</html>

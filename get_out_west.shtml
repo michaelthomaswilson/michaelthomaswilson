@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Michael Thomas Wilson  || User Experience, Technologist</title>
+
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/pfs3dzs.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+	<!--#include virtual="/header_interior.html" -->
+
+	<!-- intro -->
+	<div class="row">
+		<div class="twelve columns description centered">
+			<h1>Get Out West</h1>
+			<h2>Proposed interactive experience that drives outdoor adventures.</h2>
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>challenge</h3>
+			<p>Our client approached us to drive engagement for their new program that seeks to motivate families to get outdoors, explore and create adventures.</p>
+		</div>
+		<div class="six columns description">
+			<h3>solution</h3>
+			<p>Our research showed that the barrier to families engaging the outdoors included where to go, concerns with cost, what activities were available and how difficult were these activities.  In response we developed an integrated map, gamification and travel journal system that helps to answer each of these concerns.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns description">
+			<h3>the result</h3>
+			<p>Our proposed system was met with great excitement within the committee and throughout the entire organization.  We are currently awaiting decisions on next steps and a possible start date.</p>
+		</div>
+		<div class="six columns description">
+			<h3>my role</h3>
+			<p>For this proposal I acted as UX architect and technologist to determine the best solutions and the most appropriate technologies for implementation.</p>
+		</div>
+	</div>
+
+	<!-- photo 1 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/get_out_west/brainstorm.jpg">
+
+			<div class="caption">
+				<h3>brainstorm</h3>
+				<p>Starting from our initial ideas of solution components, we brainstorm requirements for each part of the system, validating it against the overall objectives. One of our main areas of focus was balancing the user needs of the children with the concerns of their parents.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 2 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/get_out_west/wireframes.jpg">
+
+			<div class="caption">
+				<h3>wireframes</h3>
+				<p>Working with pen and paper allows rapid development of screen wireframes for the mapping system, the mobile gamification system and the adventure journal photo album.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 3 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/get_out_west/ipad_map.jpg">
+
+			<div class="caption">
+				<h3>adventure map</h3>
+				<p>Allows families to easily locate outdoor activities near and far.  They can easily sort activities by type, difficulty, cost and other factors.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 4 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/get_out_west/ipad_journal.jpg">
+
+			<div class="caption">
+				<h3>activity journal</h3>
+				<p>This live journal automatically combines the family's on-site photography with aggregated content about the location and wild-life.  This journal also tracks the children's activity badge achievements and progress.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- photo 5 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/get_out_west/mobile_screens1.jpg">
+		</div>
+	</div>
+
+	<!-- photo 6 -->
+	<div class="row">
+		<div class="twelve columns">
+			<img class="photo" alt="placeholder" src="/images/portfolio/get_out_west/mobile_screens2.jpg">
+		</div>
+	</div>
+
+	<!--#include virtual="/footer.html" -->
+
+</body>
+</html>
