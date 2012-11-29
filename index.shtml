@@ -87,5 +87,9 @@
 	
 	<!--#include virtual="/footer.html" -->
 
+	<!-- Included JS Files (Uncompressed) -->
+	<script src="javascripts/foundation/jquery.js"></script>
+  <!-- Application Javascript, safe to override -->
+  <script src="javascripts/foundation/app.js"></script>
 </body>
 </html>
