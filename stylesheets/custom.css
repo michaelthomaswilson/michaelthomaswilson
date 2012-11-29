@@ -128,35 +128,36 @@ p {
 }
 /* line 138, ../sass/custom.scss */
 .home h3 {
-  font-size: 20px;
   font-weight: 300;
   margin: 50px 0;
+  font-family: "liberation-serif", serif;
+  font-size: 26px;
 }
-/* line 144, ../sass/custom.scss */
+/* line 145, ../sass/custom.scss */
 .home a.social {
   opacity: .7;
 }
-/* line 147, ../sass/custom.scss */
+/* line 148, ../sass/custom.scss */
 .home a.social:hover {
   opacity: 1;
 }
-/* line 152, ../sass/custom.scss */
+/* line 153, ../sass/custom.scss */
 .home.interior {
   height: auto;
   margin-bottom: 50px;
 }
 
-/* line 158, ../sass/custom.scss */
+/* line 159, ../sass/custom.scss */
 .image {
   background: #e5e5e5;
   padding: 0;
 }
-/* line 162, ../sass/custom.scss */
+/* line 163, ../sass/custom.scss */
 .image img {
   width: 100%;
 }
 
-/* line 167, ../sass/custom.scss */
+/* line 168, ../sass/custom.scss */
 .project {
   position: relative;
   background: #fff;
@@ -165,17 +166,17 @@ p {
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-/* line 178, ../sass/custom.scss */
+/* line 179, ../sass/custom.scss */
 .project h2 {
   font-weight: 500;
   font-family: "liberation-serif", serif;
 }
-/* line 182, ../sass/custom.scss */
+/* line 183, ../sass/custom.scss */
 .project h2 span {
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
 }
-/* line 188, ../sass/custom.scss */
+/* line 189, ../sass/custom.scss */
 .project h3 {
   font-weight: 300;
   font-size: 18px;
